@@ -1,15 +1,19 @@
 QUIZ ENTRE POTES
 ================
 
-Sur ordinateur : double-clique sur index.html (il faut internet, les questions
-viennent de Wikipédia/Wikidata en direct).
+L'appli est en ligne :  https://antoineruh-creator.github.io/quiz-potes/
 
-Sur téléphone (pour l'installer comme une vraie appli) : il faut mettre ce
-dossier en ligne, en HTTPS. Le plus simple, gratuit :
-  - Netlify Drop : va sur app.netlify.com/drop et glisse le dossier "quiz-potes".
-  - ou GitHub Pages.
-Ensuite ouvre le lien sur le téléphone > menu du navigateur > "Ajouter à
-l'écran d'accueil" (ou bouton "Installer l'appli" sur l'accueil).
+Installer sur téléphone (comme une vraie appli)
+  - Android (Chrome) : ouvrir le lien, menu ⋮ > "Installer l'application"
+    (ou le bouton "Installer l'appli" sur l'accueil).
+  - iPhone (Safari) : ouvrir le lien, bouton Partager > "Sur l'écran d'accueil".
+Il faut internet : les questions viennent de Wikipédia/Wikidata en direct.
+
+Mettre à jour l'appli (pour Claude / pour le développeur)
+  Les fichiers de ce dossier sont publiés par GitHub Pages depuis le dépôt
+  github.com/antoineruh-creator/quiz-potes (branche main). Un "git push" suffit,
+  le site se met à jour en une minute environ.
 
 Fichiers : index.html, style.css, app.js (interface), data.js (questions),
-sw.js + manifest.webmanifest + icônes (PWA).
+pop.js (classements de films, albums et artistes), sw.js + manifest.webmanifest
++ icônes (installation PWA).
