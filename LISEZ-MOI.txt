@@ -1,0 +1,15 @@
+QUIZ ENTRE POTES
+================
+
+Sur ordinateur : double-clique sur index.html (il faut internet, les questions
+viennent de Wikipédia/Wikidata en direct).
+
+Sur téléphone (pour l'installer comme une vraie appli) : il faut mettre ce
+dossier en ligne, en HTTPS. Le plus simple, gratuit :
+  - Netlify Drop : va sur app.netlify.com/drop et glisse le dossier "quiz-potes".
+  - ou GitHub Pages.
+Ensuite ouvre le lien sur le téléphone > menu du navigateur > "Ajouter à
+l'écran d'accueil" (ou bouton "Installer l'appli" sur l'accueil).
+
+Fichiers : index.html, style.css, app.js (interface), data.js (questions),
+sw.js + manifest.webmanifest + icônes (PWA).
